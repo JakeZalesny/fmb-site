@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Roboto&display=swap');
+
+:root {
+    --main-color: #121113;
+    --alternate-color: #556b2f;
+    --second-alternate: #7a6174; 
+    --final-alternate: #a37774; 
+    --main-background: #f1efe7;
+    --display-family: 'Merriweather Sans', sans-serif;
+    --header-family:'Roboto', sans-serif; 
+}
+
+body {
+    background-color: white;
+}
+
+header img {
+    height: 150px;
+    width: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+header {
+    box-shadow: 0px 2px 5px var(--final-alternate);
+}
+
+.slogan {
+    font-family: var(--display-family);
+
+}
