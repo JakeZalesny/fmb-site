@@ -26,6 +26,7 @@ header {
 }
 
 .slogan {
-    font-family: var(--display-family);
+    font-family: var(--header-family);
+    font-weight: 10;
 
 }
